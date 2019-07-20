@@ -396,3 +396,6 @@ auto/*
 
 # LaTeX out directory
 out/
+
+# data directory
+data/
