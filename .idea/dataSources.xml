@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="nhl@hp-envy" uuid="99e8736a-36fd-40ce-9901-1f21deba2a01">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>NHL Database on HP-Envy</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/nhl</jdbc-url>
+      <driver-properties>
+        <property name="protocolVersion" value="3" />
+        <property name="loggerLevel" value="DEBUG" />
+      </driver-properties>
+    </data-source>
+    <data-source source="LOCAL" name="nhl@r-710" uuid="d869d338-f7b8-4bb6-ac21-0dfc6cbaffad">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <remarks>NHL database on R-710</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://198.84.202.91:5432/nhl</jdbc-url>
+    </data-source>
+  </component>
+</project>
