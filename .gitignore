@@ -393,3 +393,6 @@ auto/*
 
 # standalone packages
 *.sta
+
+# LaTeX out directory
+out/
