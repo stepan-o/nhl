@@ -2,26 +2,41 @@
   <dictionary name="stepan">
     <words>
       <w>anonymized</w>
+      <w>ateam</w>
       <w>brownlee</w>
       <w>bulsink</w>
       <w>capitalizations</w>
       <w>colorlinks</w>
+      <w>csplayerid</w>
       <w>dataists</w>
       <w>datasets</w>
+      <w>dbname</w>
       <w>defencemen</w>
+      <w>dteam</w>
       <w>filecolor</w>
       <w>interpretability</w>
       <w>janssens</w>
       <w>jeroen</w>
+      <w>lalchemy</w>
       <w>linkcolor</w>
       <w>logins</w>
       <w>nterpret</w>
       <w>osemn</w>
       <w>oskin</w>
+      <w>passwd</w>
+      <w>pgdatabase</w>
+      <w>pghost</w>
+      <w>pgpassword</w>
+      <w>pgport</w>
+      <w>pguser</w>
+      <w>postgre</w>
+      <w>postgresql</w>
+      <w>precleaned</w>
       <w>preprocessing</w>
       <w>stepan</w>
       <w>subsec</w>
       <w>urlcolor</w>
+      <w>vals</w>
     </words>
   </dictionary>
 </component>
