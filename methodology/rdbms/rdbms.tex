@@ -1,0 +1,63 @@
+%! Author = Stepan Oskin
+%! Date = 2019-07-22
+
+% Preamble
+\documentclass[11pt]{article}
+
+% Packages
+
+% Document
+\begin{document}
+
+    \title{Relational databases \\
+    Description of methodology \\
+    Based on a course offered by DataCamp \\
+    \textit{Introduction to Relational Databases} \\
+    and other sources}
+
+    \author{Stepan Oskin}
+
+    \maketitle
+
+    \begin{abstract}
+        A relational database models real life entities, such as NHL players and NHL teams, by storing them in tables.
+        Each table must contain data from a single entity type.
+        This reduces redundancy by storing entities only once.
+        A database can then be used to model relationships between entities and to preserve data quality through such concepts as constraints, keys, and referential integrity.
+        SQL, or Structured Query Language, can be used for querying, as well as building and maintaining databases.
+    \end{abstract}
+
+    \section{Relational Database} \label{sec:rdb}
+
+    A relational database models real life entities, such as NHL players and NHL teams, by storing them in tables.
+    Each table must contain data from a single entity type (\textit{e.g.}, NHL Players, NHL teams, \textit{etc.})
+    This reduces redundancy by storing entities only once \textemdash for example, there only needs to be one row of data containing details of a certain NHL team.
+    Lastly, a database can be used to model relationships between entities.
+    For instance, an NHL player could have played for multiple NHL teams, while an NHL team includes many NHL players on their roster.
+
+    \vspace{5mm}
+
+    Characteristics of a relational database:
+    \begin{itemize}
+        \item real-life \textit{entities} become \textit{tables}
+        \item reduced redundancy
+        \item data integrity by \textit{relationships}
+    \end{itemize}
+
+    Relational databases can help preserve data quality through such concepts as:
+
+    \begin{itemize}
+        \item constraints
+        \item keys
+        \item referential integrity
+    \end{itemize}
+
+    SQL, or \textbf{Structured Query Language}, can be used for querying, as well as building and maintaining databases.
+
+    \section{\texttt{information\_schema} database} \label{sec:info_schema}
+
+    \texttt{information\_schema} database is available by default in PostgreSQL and presents a \textit{meta database} that holds information about a relational database in PostgreSQL .
+    \texttt{information\_schema} is not PostgreSQL specific, and is also available in other database management systems, such as MySQL or SQL Server.
+    The \texttt{information\_schema} database holds various information in different tables, for example, in a \texttt{tables} or \texttt{columns} tables.
+
+\end{document}
